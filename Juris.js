@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-08-27 10:42:50"
+	"lastUpdated": "2021-02-22 11:40:34"
 }
 
 /*
@@ -241,7 +241,7 @@ function finalize(doc, url, item) {
 	//	document: doc
 	// }];
 	
-	var perma = ZU.xpathText(doc, '//span[contains(@class, "docLayoutPermalinkItemLink")]');
+	var perma = ZU.xpathText(doc, '//link[@id="idCanonicalUrlLink"]/@href');
 	if (perma) {
 		item.attachments.push({
 			title: "Juris Permalink",
@@ -323,6 +323,7 @@ function doWeb(doc, url) {
 		scrape(doc, url, myType);
 	}
 }
+
 
 /** BEGIN TEST CASES **/
 var testCases = [
