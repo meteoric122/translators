@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2021-02-22 11:40:34"
+	"lastUpdated": "2021-02-22 12:38:01"
 }
 
 /*
@@ -723,6 +723,48 @@ var testCases = [
 				"shortTitle": "Morpheus",
 				"caseName": "BGH, 15.11.2012 - I ZR 74/12 - Morpheus"
 			}
+		]
+	},
+	{
+		"type": "web",
+		"url": "https://www.juris.de/perma?d=samson-BAVBAUGBD0065",
+		"items": [
+			{
+            	"itemType": "encyclopediaArticle",
+            	"creators": [
+            		{
+                		"firstName": "",
+                		"lastName": "Rixner",
+                		"creatorType": "editor"
+            		},
+            		{
+                		"firstName": "",
+                		"lastName": "Biedermann",
+                		"creatorType": "editor",
+            		},
+            		{
+                		"firstName": "",
+                		"lastName": "Charlier",
+                		"creatorType": "editor"
+            		}
+            	],
+            	"notes": [],
+            	"tags": [],
+            	"seeAlso": [],
+            	"attachments": [
+            		{
+                		"title": "Juris Permalink",
+                		"snapshot": false
+            		},
+            		{
+                		"title": "Fulltext PDF",
+                		"mimeType": "application/pdf"
+            		}
+            	],
+            	"title": "§ 36 BauGB Beteiligung der Gemeinde und der höheren Verwaltungsbehörde",
+            	"libraryCatalog": "Juris",
+        	  	"encyclopediaTitle": "Rixner/Biedermann/Charlier, Systematischer Praxiskommentar BauGB/BauNVO"
+           }
 		]
 	}
 ]
